@@ -3,17 +3,20 @@ import 'font-awesome/css/font-awesome.min.css';
 import './App.css';
 
 import React from 'react';
+import { HashRouter } from 'react-router-dom';
 
+import Routes from './Router';
 import Logo from '../components/template/Logo';
 import Nav from '../components/template/Nav';
-import Main from '../components/template/Main';
 import Footer from '../components/template/Footer';
 
 export default props =>
-    <div className="app">
-        <Logo />
-        <Nav />
-        <Main icon="home" title="inicio"
-            subtitle="segundo projeto react."/>
-        <Footer />
-    </div>
+    <HashRouter>
+        <div className="app">
+            <Logo />
+            <Nav />
+            <Routes />
+
+            <Footer />
+        </div>
+    </HashRouter>
