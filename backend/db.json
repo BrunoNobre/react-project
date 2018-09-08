@@ -1,17 +1,26 @@
 {
-    "users": [{
-        "id": 1,
-        "name": "Arthur Oliveira",
-        "email": "aoliveira@cod3r.com.br"
-    }, {
-        "id": 2,
-        "name": "Maria Julia da Silva",
-        "email": "mjds@cod3r.com.br"
-    }],
-    "companies": [{
-        "id": 1,
-        "name": "Maria Julia S.A.",
-        "cnpj": "16.242.837/0001-87"
-    }]
-
+  "users": [
+    {
+      "id": 1,
+      "name": "Arthur Oliveira Silva",
+      "email": "aoliveira@cod3r.com.br"
+    },
+    {
+      "id": 2,
+      "name": "Maria Julia da Silva",
+      "email": "mjds@cod3r.com.br"
+    },
+    {
+      "name": "Nanadaime Sensei",
+      "email": "b.nobre90@yahoo.com.br",
+      "id": 3
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": "Maria Julia S.A.",
+      "cnpj": "16.242.837/0001-87"
+    }
+  ]
 }
